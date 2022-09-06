@@ -4,6 +4,11 @@
   "description": "Simply display the number of occurrences of the selected text in the status bar",
   "version": "0.0.1",
   "publisher": "Benji Grant",
+  "author": "Benji Grant (https://bengrant.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GRA0007/occurrence-counter.git"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
