@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "@typescript-eslint/naming-convention": "warn",
+    "eqeqeq": "warn",
+    "no-throw-literal": "warn",
+    "semi": ["error", "never"],
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "arrow-parens": ["error", "as-needed"],
+    "linebreak-style": ["error", "unix"],
+    "eol-last": [1, "always"],
+    "no-trailing-spaces": "warn",
+    "no-var": "error"
+  },
+  "ignorePatterns": [
+    "out",
+    "dist",
+    "**/*.d.ts"
+  ]
+}
