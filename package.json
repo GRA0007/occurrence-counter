@@ -1,14 +1,21 @@
 {
   "name": "occurrence-counter",
-  "displayName": "occurrence-counter",
+  "displayName": "Occurrence Counter",
   "description": "Simply display the number of occurrences of the selected text in the status bar",
   "version": "0.0.1",
-  "publisher": "Benji Grant",
+  "publisher": "benpai",
   "author": "Benji Grant (https://bengrant.dev)",
   "repository": {
     "type": "git",
     "url": "https://github.com/GRA0007/occurrence-counter.git"
   },
+  "icon": "images/icon.png",
+  "keywords": [
+    "occurrence",
+    "counter",
+    "select",
+    "status"
+  ],
   "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
